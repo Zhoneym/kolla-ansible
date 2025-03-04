@@ -3,6 +3,7 @@ workaround_ansible_issue_8743: yes
 kolla_base_distro: "rocky"
 openstack_release: "2023.1"
 kolla_container_engine: "docker"
+enable_docker_repo: "false"
 docker_registry: "quay.io"
 docker_namespace: "openstack.kolla"
 network_interface: "ens32"
