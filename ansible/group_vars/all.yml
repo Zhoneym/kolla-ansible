@@ -368,6 +368,7 @@ ironic_http_port: "8089"
 iscsi_port: "3260"
 
 keystone_public_port: "5000"
+keystone_internal_port: "5000"
 keystone_public_listen_port: "{{ keystone_public_port }}"
 # NOTE(yoctozepto): Admin port settings are kept only for upgrade compatibility.
 # TODO(yoctozepto): Remove after Zed.
